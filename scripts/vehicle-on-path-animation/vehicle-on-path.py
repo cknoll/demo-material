@@ -9,6 +9,20 @@ import matplotlib.patches as patches
 
 # import numtools
 
+
+"""
+This script creates an animation with a translated and rotated rectangle.
+
+useful links:
+
+https://matplotlib.org/api/animation_api.html
+
+https://matplotlib.org/users/transforms_tutorial.html
+https://matplotlib.org/api/transformations.html
+
+"""
+
+
 fig, ax = plt.subplots()
 ln, = plt.plot([], [], 'r-', animated=True)
 
