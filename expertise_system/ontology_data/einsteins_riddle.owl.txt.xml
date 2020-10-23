@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="N784c71c96d1847b38cbcb03662e49a46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Nba54a7d9cc2a465eae82e38eafb543a5"/>
+    <owl:someValuesFrom rdf:nodeID="N68efcffa1cb74f0b94a4215922f85cf0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40c61820277b40d3a8133cbfbd343203">
+    <owl:annotatedTarget rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#tea"/>
+    <owl:annotatedProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. The Ukrainian drinks tea.</rdfs:comment>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Ukrainian"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea0e9b03640c43b2b108a60af0b0e952">
+    <owl:onProperty rdf:nodeID="Nf6601eb9392c46afac51416950dec4ef"/>
+    <owl:someValuesFrom rdf:nodeID="Ncafc2d3571a84ef08a00963ece21ba64"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N870fb4a7c2e54fa084002bf4a396c0a4">
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#milk"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Milk is drunk in the middle house.</rdfs:comment>
+    <owl:annotatedTarget rdf:nodeID="Nd495edef2a754d0b948f3dc8c0995f07"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N59e000d33ba74e21b73dbbda0374db26">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#ivory"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:range rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea7a179bf73f467d8e0eef82ada93ca0">
+    <owl:annotatedTarget rdf:nodeID="Ne8b0f85048f64106899f16cdf3752ae2"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Norwegian"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15. The Norwegian lives next to the blue house.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N50da45fca42b4b49853eb110b7820152">
+    <owl:someValuesFrom rdf:nodeID="Nfa830fe880be42be8b3d8ea7cc90e432"/>
+    <owl:onProperty rdf:nodeID="N2023910bcc1c4ad1a6fffb61fb4afe3c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c8b5cfaa13e4bdfaa3d141e5870e7e0">
+    <rdf:rest rdf:nodeID="Ne0c5ee8cd0ba4eab9c73418dd6afe08f"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Ukrainian"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38de23efee604b2686124dd3b5cac032">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. The Spaniard owns the dog.</rdfs:comment>
+    <owl:annotatedProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Spaniard"/>
+    <owl:annotatedTarget rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#dog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:range rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Parliaments">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N29574df3cdb54c94a1f4e5337ad0708c">
+    <owl:someValuesFrom rdf:nodeID="N661dd69fb99e4b0b9506bc0b5133f289"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N949f458bd28c4e0c9a9fd6d970d7ca13">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+    <owl:someValuesFrom rdf:nodeID="N4ddb3956dc4442fcb11240984e0ad346"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N41c0f90b4fd7482c8c346bd6c7d481e4">
+    <owl:annotatedTarget rdf:nodeID="Nbc879229297f4b288c10cc3d9c5578c9"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Chesterfields"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. The man who smokes Chesterfields lives in the house next to the man with the fox.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N095ce7c4bebf43cea02ab71c4c97bc6e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#zebra">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na67c8601fde54cde987aabc60564a07b">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#ivory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07e21787a87d4a5996850c73486e5acf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <owl:onProperty rdf:nodeID="Nd9d2354effe14ac5ba2dc15b3cdc4c38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#milk">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>9. Milk is drunk in the middle house.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:nodeID="Na47ee7ace1884e50aec5e286ddf5f088"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6381e4035514281b1cb3bb57eb62670">
+    <rdf:first rdf:nodeID="Nd44da23fbddc4376b6355f52c15d089b"/>
+    <rdf:rest rdf:nodeID="N280348c34914402fba0919ee8c9eef6c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68efcffa1cb74f0b94a4215922f85cf0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N15a41894b5c34b9fb42fc20e0570a3c2"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1ff7cd539c24c75b1ae90a9ed1336fd">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Old_Gold"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N098cafc8b62545fe95bde0f026e1da96">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb32e1f8cd05d4b7382d2712f57ddce60">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N280348c34914402fba0919ee8c9eef6c">
+    <rdf:first rdf:nodeID="Nd5589ab7626b49f68110ad4c589b2a15"/>
+    <rdf:rest rdf:nodeID="N7e397c77e072406a854b88deaa2b0a6e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb7e43489ba14d5b9b564bfa8d03b360">
+    <rdf:rest rdf:nodeID="Nc645ae9de8474cd08b669029cb4c869a"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N769b7145a44740c8a62ed69c956d279c">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:nodeID="Ne6f41c15cc21443bac82c5af9cf875e4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2daa0eb495d6489bbdedd3d07d1c2e28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Naf90835f49b144a19db89612359a40c0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2023910bcc1c4ad1a6fffb61fb4afe3c">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2ce9826ab73f4c1fa817da21e135bf2f">
+    <rdf:first rdf:nodeID="N078c0b1005a34e56bddf1ca9ca9cc508"/>
+    <rdf:rest rdf:nodeID="Naa0a463a68614e32a3e739ffe20d2ed1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5cec7edcbb4c44d69bc75a8f5567bc44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="N16941cd0fc15469b8b0f578c72fb3fc9"/>
+    <owl:someValuesFrom rdf:nodeID="N97e8e0cba3a9414f872efa5237ede422"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf90835f49b144a19db89612359a40c0">
+    <rdf:first rdf:nodeID="Nd5ad96aec1294fff8f8f3959b023ce7a"/>
+    <rdf:rest rdf:nodeID="N038f9bdcf876492db90e53cbc2bd1b16"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N29e5af37bae840f19e581717180ebfb6">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#zebra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N422be414e3464cd1be21561680e15f09">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nb3d00a092dfa43e897888426510b4c5a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf89f7223675c4d919a1f209d57ed4a5f">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Chesterfields"/>
+    <rdf:rest rdf:nodeID="Nc1ff7cd539c24c75b1ae90a9ed1336fd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <right_to rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N60de6c0d947545b78866bb2b053bd1ff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N4ab38bf8df364bdb887723f433cadaad"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl">
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denis Ponomaryov</dc:creator>
+    <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">   1. There are five houses.
+   2. The Englishman lives in the red house.
+   3. The Spaniard owns the dog.
+   4. Coffee is drunk in the green house.
+   5. The Ukrainian drinks tea.
+   6. The green house is immediately to the right of the ivory house.
+   7. The Old Gold smoker owns snails.
+   8. Kools are smoked in the yellow house.
+   9. Milk is drunk in the middle house.
+  10. The Norwegian lives in the first house.
+  11. The man who smokes Chesterfields lives in the house next to the man with the fox.
+  12. Kools are smoked in a house next to the house where the horse is kept. 
+  13. The Lucky Strike smoker drinks orange juice.
+  14. The Japanese smokes Parliaments.
+  15. The Norwegian lives next to the blue house.
+
+Now, who drinks water? Who owns the zebra?
+
+In the interest of clarity, it must be added that each of the five houses is painted a different color, has a single inhabitant, and the inhabitants are of different national extractions, own different pets, drink different beverages and smoke different brands of American cigarettes. In statement 6, right refers to the reader's right.</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Created: February 5, 2010
+Updated for compliance: November 4, 2013</dc:date>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbfcec4d8248b4b138a9c9f2f13e7daf5">
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <owl:onProperty rdf:nodeID="Nfa4ed83a335140278065010c8b75f48f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N434c9beeade64a2a9966371c82c9e33c">
+    <owl:oneOf rdf:nodeID="N7ea95eba677b422590866e49403a8720"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6f41c15cc21443bac82c5af9cf875e4">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N21fce97d3eba4d49a8dab0c4f7f5d5cb">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green">
+    <rdf:type rdf:nodeID="Ndaa0733698fe46f5ae64e88237ffd95c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>6. The green house is immediately to the right of the ivory house.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N15a41894b5c34b9fb42fc20e0570a3c2">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#yellow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N078c0b1005a34e56bddf1ca9ca9cc508">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3d7fe055eb1b4ffc8388b871b9ca9ddd">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Norwegian"/>
+    <rdf:rest rdf:nodeID="N39af0e7b66f24f0b9880a87712dc55cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54845b7391c84f53bb1d809f2c2a8d1a">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Ukrainian"/>
+    <rdf:rest rdf:nodeID="N4fe155706a924d2da59a907746149ac1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nccb391a23bdb4e708139300cfdd4267c">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N71980d4855d947859ae23bfdc1768bd2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. The green house is immediately to the right of the ivory house.</rdfs:comment>
+    <owl:annotatedTarget rdf:nodeID="N59aaf58e71aa4ff28d45356b4d2181d2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36b6d2cab22d47528128f4b0abe1285d">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0fa63ee491d9453bb23268da7b4be7af">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N19bc3535ee744f27bb3e0644082d6aa6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N328c92bdcf1f4a63a1abc9489de5a2b1"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ddb3956dc4442fcb11240984e0ad346">
+    <owl:someValuesFrom rdf:nodeID="Nce0aeb5fe462457ca5f5afcef9bbf985"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="N6d1673869f9b434985a4a364e0e90ead"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N000b11b338ad473db8ea749fd3add49c">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. The Japanese smokes Parliaments.</rdfs:comment>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Japanese"/>
+    <owl:annotatedProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Parliaments"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Pet">
+    <rdfs:subClassOf rdf:nodeID="Nbfcec4d8248b4b138a9c9f2f13e7daf5"/>
+    <owl:equivalentClass rdf:nodeID="Nd398dc01580d470090012b9a19aae6d1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a562652d67f49de8ccb736008e143e4">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+    <owl:someValuesFrom rdf:nodeID="Nf4e6ed816a3f488198bb24938c4b8e88"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Beverage"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndaccfeb98a5740bf977b594b32024db1">
+    <rdf:rest rdf:nodeID="N95e47e050de9471bb49edd5c1e11be0c"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4bf485908d234dcc88c67f1387d76b1c">
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Kools"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Kools are smoked in the house next to the house where the horse is kept.</rdfs:comment>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:nodeID="N45fac7e14dcd41088f253dc43124a64c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1">
+    <rdf:type rdf:nodeID="Nc02093309ae842a488554434388376c8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncde45607a839474da609fd533bee3044">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbf68aee7298f4971aa7ff271d6174a3b">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-2"/>
+    <rdf:rest rdf:nodeID="N63e5d60b6f0b43faa6779c7f922a69ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb0b278a668a4260a3fe112fc5b1f53e">
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#coffee"/>
+    <owl:annotatedTarget rdf:nodeID="N50da45fca42b4b49853eb110b7820152"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Coffee is drunk in the green house.</rdfs:comment>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ea95eba677b422590866e49403a8720">
+    <rdf:rest rdf:nodeID="N84d529a2b345426791c92b67aa642e09"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Kools"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <right_to rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd44da23fbddc4376b6355f52c15d089b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#snails">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Chesterfields">
+    <rdfs:comment>11. The man who smokes Chesterfields lives in the house next to the man with the fox.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:nodeID="Ncd086325411c4fc6bbc87ce6b4d45df7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe6e9eb84d99489ebdc9a5cd23e27fd0">
+    <owl:someValuesFrom rdf:nodeID="N36b6d2cab22d47528128f4b0abe1285d"/>
+    <owl:onProperty rdf:nodeID="N8bda229057354468a5abb0eb96af9e2d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Beverage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nf734795be07a44e1bfb35466079d6fc0"/>
+    <rdfs:subClassOf rdf:nodeID="N07e21787a87d4a5996850c73486e5acf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House">
+    <rdfs:subClassOf rdf:nodeID="Nbcabf4e4749d4be4ba51eadeebbe79a2"/>
+    <owl:equivalentClass rdf:nodeID="N3bd235cea8344240be5aad72cd7f0330"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0c5ee8cd0ba4eab9c73418dd6afe08f">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue"/>
+    <rdf:rest rdf:nodeID="N7cd3739319b241c69f56ddb5e24c9cb2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33bdf6f6f2aa4043ab6319e1e4dc7123">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:nodeID="N1029cf7941194eb4815f1cfc3bd8a837"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88149bcff12b4e1384348692c3da9745">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#snails"/>
+    <rdf:rest rdf:nodeID="N7caedcaf2dda4a82940297dab34f19bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N59aaf58e71aa4ff28d45356b4d2181d2">
+    <owl:onProperty rdf:nodeID="N3694968ae0064e9ca2d8afca42b31174"/>
+    <owl:someValuesFrom rdf:nodeID="N2a562652d67f49de8ccb736008e143e4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#coffee">
+    <rdf:type rdf:nodeID="Nf8659e1e62f14dd98905bbe527b85299"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment>4. Coffee is drunk in the green house.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nafac07b814754c5dac6f03dd843f024c">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7caedcaf2dda4a82940297dab34f19bc">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#dog"/>
+    <rdf:rest rdf:nodeID="Ne2183eb9d0934f928820ce2f0e38a006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa0a463a68614e32a3e739ffe20d2ed1">
+    <rdf:first rdf:nodeID="N4d7f1a4f4a5649c99e128b2143cbf9bb"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N649a9ee9de3d45918b77088f60e2df17">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. The Lucky Strike smoker drinks orange juice.</rdfs:comment>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Lucky_Strike"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:nodeID="N66f1789136d947338b91f6c57db11466"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf9ce56576f554e2991392a1060a0a454">
+    <owl:unionOf rdf:nodeID="N924b74d60e534788ac2feb031dbec9f6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc645ae9de8474cd08b669029cb4c869a">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green"/>
+    <rdf:rest rdf:nodeID="N70b79b524c454718a2cd62f346faf367"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72939d94ee1a471096be8dcca2da99ac">
+    <owl:onProperty rdf:nodeID="N5749eef117d34d168c74cf6e99277dc4"/>
+    <owl:someValuesFrom rdf:nodeID="N896cd6f4e48e4227bb76374936ea2d95"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89cfdf9cbd6447d8be5f87a04de92c25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="Nea51f0fcfc804efa80cdff0e88e31037"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1b42213c90e54799badb499b5cfbd276">
+    <owl:someValuesFrom rdf:nodeID="Ne282e3a50d214831ade438b80d594fec"/>
+    <owl:onProperty rdf:nodeID="N53f4c5511e954e0f962e6c52f13d3587"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16941cd0fc15469b8b0f578c72fb3fc9">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Cigarette"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf4e6ed816a3f488198bb24938c4b8e88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#ivory"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ef022b91e1f438ebff2bd1c2fdf9528">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#water"/>
+    <rdf:rest rdf:nodeID="Nd407f6ffd89548b6961ad4be05db9c21"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndaa0733698fe46f5ae64e88237ffd95c">
+    <owl:someValuesFrom rdf:nodeID="N60de6c0d947545b78866bb2b053bd1ff"/>
+    <owl:onProperty rdf:nodeID="N9fb70cb3b511451cb94cb0de5ee98837"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb8dd920878c48868f994e0cc54ba8ef">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#orange_juice"/>
+    <rdf:rest rdf:nodeID="Nf1ba8dc937b9412f97195614e9a7f5f1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N70aa9106a9ca4170ae009197dd22e844">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. The Norwegian lives in the first house.</rdfs:comment>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Norwegian"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1"/>
+    <owl:annotatedProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#yellow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5ad96aec1294fff8f8f3959b023ce7a">
+    <owl:someValuesFrom rdf:nodeID="N095ce7c4bebf43cea02ab71c4c97bc6e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N02bcd7fc3a19410d89b1227307b49fd4">
+    <owl:someValuesFrom rdf:nodeID="Nb60b48a6fdcc4d6ebd584a15b149827a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda5073a4b3f94a1889f65e75ab4d87f1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N71e5b6cb4f5e4676969a51658cbc9136"/>
+    <owl:onProperty rdf:nodeID="Nfa53e551a896459b95e0a941e5a56392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#orange_juice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb1992b0fc8d4e9b88ca0eaac58bac02">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#snails"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f4a840fed134652844312a4677518d7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="N13291eb299834d3f8bccf3df9ab1bd76"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa5b67ed01b74f15b45bba4f172f2a82">
+    <owl:someValuesFrom rdf:nodeID="N4e5d6580f2b94bcc9ad712a61f9753b9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Nafac07b814754c5dac6f03dd843f024c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49c489558e1c48fa8a1cfae88b18db29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Ncde45607a839474da609fd533bee3044"/>
+    <owl:someValuesFrom rdf:nodeID="Ndb1992b0fc8d4e9b88ca0eaac58bac02"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce8c2c8bf67c4c6581fc43d864f81d7a">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Chesterfields"/>
+    <rdf:rest rdf:nodeID="N38fa1441f69f4e3db1740c77e7822292"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Color">
+    <rdfs:subClassOf rdf:nodeID="Nc0a6a88a45b14cd69a97486298425970"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N49d2b24ab59f450aa37475266e49e1e8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne56613f097df40da884a20dfcb5cd3fa">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#snails"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc02093309ae842a488554434388376c8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N747ffc413c744c39965b77dc8ffa3d1d">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3694968ae0064e9ca2d8afca42b31174">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf25e7bff76b24a87869dd1480d41507a">
+    <rdf:rest rdf:nodeID="Nce1214e3bbf449808ca9adf625d933a7"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#zebra"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5589ab7626b49f68110ad4c589b2a15">
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Pet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85e40098d8d14f49a60e75ab59851d24">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1"/>
+    <rdf:rest rdf:nodeID="N073ddd17db8640a9aac6b0754d92a921"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N131ae2d56bc74361a139c331ad0bd7a6">
+    <owl:someValuesFrom rdf:nodeID="Nea0e9b03640c43b2b108a60af0b0e952"/>
+    <owl:onProperty rdf:nodeID="N4d6b9e11789b4ff5bdffb7aaa64e7eb2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc4bb15648d994dbca6fe56f15897819b">
+    <owl:onProperty rdf:nodeID="Nbc60150f453244459136a3a60f1a633a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N8cf809e5b43e490ca71add921f724ef0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45fac7e14dcd41088f253dc43124a64c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N0a2275b577bd41e7835b8afdc019d168"/>
+    <owl:onProperty rdf:nodeID="N0478d227fce6441192e10961fe86394c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N689a0f521e4c40b88f3ef0dcefdb3c7b">
+    <rdf:rest rdf:nodeID="N8fcc06737932469d92e9a4f0f0f708c7"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Japanese"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns">
+    <rdfs:domain rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:range rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Pet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N08717c980740475fa665c676edd99304">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Beverage"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N62c2ce3adc6f4c278b6f9fb19903a8d4">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#snails"/>
+    <rdf:rest rdf:nodeID="N81f8e3da38444264bfed3cf9865d776e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd98a196c88f74aac857dd69547ab44f7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="N689713b87b104704a709ee33e585a7ac"/>
+    <owl:someValuesFrom rdf:nodeID="N6231f477a9f44761bcabc83c938057e6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ab38bf8df364bdb887723f433cadaad">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#ivory"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb2f23cef61b846b7a35640e671ee3dc8">
+    <rdf:rest rdf:nodeID="N08bb2ac7884f4f9a85f8b78a0d83d073"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#red"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4fe155706a924d2da59a907746149ac1">
+    <rdf:rest rdf:nodeID="N88f06af3bd7845ffa4cb033743dc8356"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Spaniard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Ukrainian">
+    <rdfs:comment>5. The Ukrainian drinks tea.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <drinks rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#tea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd398dc01580d470090012b9a19aae6d1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="Nf25e7bff76b24a87869dd1480d41507a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba54a7d9cc2a465eae82e38eafb543a5">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Lucky_Strike">
+    <rdf:type rdf:nodeID="Nc4bb15648d994dbca6fe56f15897819b"/>
+    <rdfs:comment>13. The Lucky Strike smoker drinks orange juice.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1aad94d721434de7bd184cc5e7ac22f4">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45c49ca6cc7445458746a397b9172c8a">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-5"/>
+    <rdf:rest rdf:nodeID="N44d42d75691647d1b561da07c61bf891"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88f06af3bd7845ffa4cb033743dc8356">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Norwegian"/>
+    <rdf:rest rdf:nodeID="N0e486bc82eb547a0819c085b7bda217b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N39af0e7b66f24f0b9880a87712dc55cb">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Old_Gold"/>
+    <rdf:rest rdf:nodeID="N36b31b02484e49fca0c72743b29372b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nea51f0fcfc804efa80cdff0e88e31037">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#red"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Englishman">
+    <rdfs:comment>2. The Englishman lives in the red house.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:nodeID="N89cfdf9cbd6447d8be5f87a04de92c25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa67348ef0d040fd82b456fd59b3659b">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Kools"/>
+    <owl:annotatedTarget rdf:nodeID="N784c71c96d1847b38cbcb03662e49a46"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Kools are smoked in the yellow house.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a2275b577bd41e7835b8afdc019d168">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:nodeID="Nf9ce56576f554e2991392a1060a0a454"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N612d199cdf934d63a18ff4ff27d88358">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#red"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8cf809e5b43e490ca71add921f724ef0">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#orange_juice"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N585f7a8774bf43e6a07600a4137c716a">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N328c92bdcf1f4a63a1abc9489de5a2b1">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd436d155e9cd4295a202aad01ed954a0">
+    <rdf:rest rdf:nodeID="N0c8b5cfaa13e4bdfaa3d141e5870e7e0"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Spaniard"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbc879229297f4b288c10cc3d9c5578c9">
+    <owl:onProperty rdf:nodeID="Na4d6d15edad44a18ba97e6ac5b0233f6"/>
+    <owl:someValuesFrom rdf:nodeID="N33bdf6f6f2aa4043ab6319e1e4dc7123"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Kools">
+    <rdf:type rdf:nodeID="N1b42213c90e54799badb499b5cfbd276"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:nodeID="N550cd54cb90244e398f7c896cf592cc9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>12. Kools are smoked in a house next to the house where the horse is kept.    
+8. Kools are smoked in the yellow house.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7e397c77e072406a854b88deaa2b0a6e">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N297b0c949c23432ea289b2e5492f55f5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64ca00ff936947e598fcabd76cca0b00">
+    <rdf:rest rdf:nodeID="N62c2ce3adc6f4c278b6f9fb19903a8d4"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#red"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49d2b24ab59f450aa37475266e49e1e8">
+    <owl:oneOf rdf:nodeID="Nefdde152d212412aaa38a3f8e92be564"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N12ba5a0b8dd540c7b854c3543035bf8f">
+    <rdf:first rdf:nodeID="N949f458bd28c4e0c9a9fd6d970d7ca13"/>
+    <rdf:rest rdf:nodeID="N0ec5cfcfe7d94be6a10ad3e79b9b2a77"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84d529a2b345426791c92b67aa642e09">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Lucky_Strike"/>
+    <rdf:rest rdf:nodeID="Nb224e1957994453aa0e7e3ac5cbd5bbf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N63e5d60b6f0b43faa6779c7f922a69ab">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3"/>
+    <rdf:rest rdf:nodeID="N85e40098d8d14f49a60e75ab59851d24"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N71e5b6cb4f5e4676969a51658cbc9136">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndf18b0a88647416eb9c80535449a2a54">
+    <rdf:rest rdf:nodeID="Neb1003647e454e33bcf6f60c46ede391"/>
+    <rdf:first rdf:nodeID="N1dc6dab5e2f94edb964c29a89b37c4af"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N03df59cd7edd448ab929c3bbed057b1a">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd495edef2a754d0b948f3dc8c0995f07">
+    <owl:onProperty rdf:nodeID="Nb32e1f8cd05d4b7382d2712f57ddce60"/>
+    <owl:someValuesFrom rdf:nodeID="N1d24728d437c463f999939d6f9724d63"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2840aeb6dfda4ca89cf5cd09f2ff2d7c">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#milk"/>
+    <rdf:rest rdf:nodeID="Nd1b6c98b814c4b629c1cddac6bf44330"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3599f67e133d480b949f02a42a38a622">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N302b79e15cd44dffa1861df458237358">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Nfd7fb2248e934ffe8b7fa94d98573a5d"/>
+    <owl:someValuesFrom rdf:nodeID="Ne56613f097df40da884a20dfcb5cd3fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8659e1e62f14dd98905bbe527b85299">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N769b7145a44740c8a62ed69c956d279c"/>
+    <owl:onProperty rdf:nodeID="Nfaacacceace5463f96e02887095fb125"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb224e1957994453aa0e7e3ac5cbd5bbf">
+    <rdf:rest rdf:nodeID="Nf89f7223675c4d919a1f209d57ed4a5f"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Parliaments"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N073b72a8330f422faab7aabab51a2d6a">
+    <rdf:first rdf:nodeID="N08ab32dd5ac141d2a7845a893586a8da"/>
+    <rdf:rest rdf:nodeID="Nb39ad27fcd844dba8e97ff62d129c747"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf734795be07a44e1bfb35466079d6fc0">
+    <owl:oneOf rdf:nodeID="Neb8dd920878c48868f994e0cc54ba8ef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <right_to rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:nodeID="N4f4a840fed134652844312a4677518d7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d7f1a4f4a5649c99e128b2143cbf9bb">
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <owl:onProperty rdf:nodeID="N6931a1776ac946208fbba31c612278d8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7953269b9303403aa0090bf9f8678ba0">
+    <owl:someValuesFrom rdf:nodeID="N612d199cdf934d63a18ff4ff27d88358"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd407f6ffd89548b6961ad4be05db9c21">
+    <rdf:rest rdf:nodeID="N29e5af37bae840f19e581717180ebfb6"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#yellow"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8cbbadfdb6a24b028d86350b1ba422a0">
+    <rdf:first rdf:nodeID="Nbe6e9eb84d99489ebdc9a5cd23e27fd0"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N17539b5ce08341a9b79ecc19ce3a5502">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+    <owl:distinctMembers rdf:nodeID="Nce8c2c8bf67c4c6581fc43d864f81d7a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8875339dff2a491b9bd3f5d6dfd5db8a">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24ab6dd56a674bdcab6e6d726e288e7a">
+    <owl:unionOf rdf:nodeID="N073b72a8330f422faab7aabab51a2d6a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd1b6c98b814c4b629c1cddac6bf44330">
+    <rdf:rest rdf:nodeID="N64ca00ff936947e598fcabd76cca0b00"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#orange_juice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N038f9bdcf876492db90e53cbc2bd1b16">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N5cec7edcbb4c44d69bc75a8f5567bc44"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na47ee7ace1884e50aec5e286ddf5f088">
+    <owl:someValuesFrom rdf:nodeID="N0fa63ee491d9453bb23268da7b4be7af"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Nd4d03b55d61d46aabc81c9be169ab64a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Japanese">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment>14. The Japanese smokes Parliaments.</rdfs:comment>
+    <smokes rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Parliaments"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4e5d6580f2b94bcc9ad712a61f9753b9">
+    <owl:onProperty rdf:nodeID="N03df59cd7edd448ab929c3bbed057b1a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N3599f67e133d480b949f02a42a38a622"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ca605eb78674bed97f836e16895bbce">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N661dd69fb99e4b0b9506bc0b5133f289">
+    <owl:unionOf rdf:nodeID="Ndf18b0a88647416eb9c80535449a2a54"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8fcc06737932469d92e9a4f0f0f708c7">
+    <rdf:rest rdf:nodeID="N42dfb2a8c6c741ed9e2d171e6e7ff25f"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Kools"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ec5cfcfe7d94be6a10ad3e79b9b2a77">
+    <rdf:first rdf:nodeID="N72939d94ee1a471096be8dcca2da99ac"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5749eef117d34d168c74cf6e99277dc4">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e419099644e4bdbbbdd376553422ac9">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#milk"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N71aea4b5844d4ff08c4bd423c2f43a8a">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N960cb44828d540709f2882f45f0b6c5c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <right_to rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N422be414e3464cd1be21561680e15f09"/>
+    <owl:equivalentClass rdf:nodeID="Nc92b5aa094c646d5be0f1f4b60ca3427"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncafc2d3571a84ef08a00963ece21ba64">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1ba8dc937b9412f97195614e9a7f5f1">
+    <rdf:rest rdf:nodeID="N137d164082fd40dfa89849ff93509e93"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#tea"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1dc6dab5e2f94edb964c29a89b37c4af">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="Nd98a196c88f74aac857dd69547ab44f7"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1d24728d437c463f999939d6f9724d63">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb1003647e454e33bcf6f60c46ede391">
+    <rdf:first rdf:nodeID="N131ae2d56bc74361a139c331ad0bd7a6"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ned2d20660c8a4f04b02049309fccbea0">
+    <owl:someValuesFrom rdf:nodeID="Na28958caa1f04090af10c02e4f1c2d2e"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6b57a7deaba346c0bbfa8e0972e68c63">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Spaniard">
+    <owns rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#dog"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment>3. The Spaniard owns the dog.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e486bc82eb547a0819c085b7bda217b">
+    <rdf:rest rdf:nodeID="N0ab12bd764504926bee35a2f69ed8ab6"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Englishman"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf7c75c91cb649db8d71a545ab7fc739">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N252791d9bd7549f2bd88e57ed36047a8">
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Englishman"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. The Englishman lives in the red house.</rdfs:comment>
+    <owl:annotatedTarget rdf:nodeID="N7953269b9303403aa0090bf9f8678ba0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6231f477a9f44761bcabc83c938057e6">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N42dfb2a8c6c741ed9e2d171e6e7ff25f">
+    <rdf:rest rdf:nodeID="N3d7fe055eb1b4ffc8388b871b9ca9ddd"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Lucky_Strike"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33d04225031948e8b54b800387c5e0b8">
+    <rdf:rest rdf:nodeID="N59e000d33ba74e21b73dbbda0374db26"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#yellow"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc0a6a88a45b14cd69a97486298425970">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Na2596825ab924e79b3f91cd3958a92c6"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6134822c6a1e4e75a0802ac0d84483a0">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N08bb2ac7884f4f9a85f8b78a0d83d073">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue"/>
+    <rdf:rest rdf:nodeID="N33d04225031948e8b54b800387c5e0b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N073ddd17db8640a9aac6b0754d92a921">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-4"/>
+    <rdf:rest rdf:nodeID="N21957b9dcff34f4fb809ffd0c61decec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfaacacceace5463f96e02887095fb125">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Norwegian">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment>10. The Norwegian lives in the first house.
+15. The Norwegian lives next to the blue house.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:nodeID="N02bcd7fc3a19410d89b1227307b49fd4"/>
+    <lives_in rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38fa1441f69f4e3db1740c77e7822292">
+    <rdf:rest rdf:nodeID="N689a0f521e4c40b88f3ef0dcefdb3c7b"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Englishman"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N297b0c949c23432ea289b2e5492f55f5">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Cigarette"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd7b05266e65422383bf0dfe68708d5f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="Naf02ae0947bb49d881cfdd2e666e1a2d"/>
+    <owl:someValuesFrom rdf:nodeID="N6b57a7deaba346c0bbfa8e0972e68c63"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N13291eb299834d3f8bccf3df9ab1bd76">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce1214e3bbf449808ca9adf625d933a7">
+    <rdf:rest rdf:nodeID="N88149bcff12b4e1384348692c3da9745"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Cigarette">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N434c9beeade64a2a9966371c82c9e33c"/>
+    <rdfs:subClassOf rdf:nodeID="Nda90321dfd384dfabf3bdac433739a76"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nefdde152d212412aaa38a3f8e92be564">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green"/>
+    <rdf:rest rdf:nodeID="Nb2f23cef61b846b7a35640e671ee3dc8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd9d2354effe14ac5ba2dc15b3cdc4c38">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf6601eb9392c46afac51416950dec4ef">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3bd235cea8344240be5aad72cd7f0330">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="Nbf68aee7298f4971aa7ff271d6174a3b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8b0f85048f64106899f16cdf3752ae2">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:nodeID="N2daa0eb495d6489bbdedd3d07d1c2e28"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce0aeb5fe462457ca5f5afcef9bbf985">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46a1cabc9e074bba94f6984677f5a5c5">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="Nfd7b05266e65422383bf0dfe68708d5f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf58c5afca9c5489cb05dc47f23f3e95a">
+    <owl:someValuesFrom rdf:nodeID="N960cb44828d540709f2882f45f0b6c5c"/>
+    <owl:onProperty rdf:nodeID="Na67c8601fde54cde987aabc60564a07b"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N550cd54cb90244e398f7c896cf592cc9">
+    <owl:someValuesFrom rdf:nodeID="Ned2d20660c8a4f04b02049309fccbea0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="N21fce97d3eba4d49a8dab0c4f7f5d5cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na51588dcc2a24a0aa58705fae351bdd4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Old_Gold"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:annotatedTarget rdf:nodeID="N49c489558e1c48fa8a1cfae88b18db29"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. The Old Gold smoker owns snails.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa830fe880be42be8b3d8ea7cc90e432">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:nodeID="N6134822c6a1e4e75a0802ac0d84483a0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N95e47e050de9471bb49edd5c1e11be0c">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-4"/>
+    <rdf:rest rdf:nodeID="N45c49ca6cc7445458746a397b9172c8a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d6b9e11789b4ff5bdffb7aaa64e7eb2">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N091d7ab47cff4d5eb6547bfeed72a72f">
+    <owl:someValuesFrom rdf:nodeID="Nf58c5afca9c5489cb05dc47f23f3e95a"/>
+    <owl:onProperty rdf:nodeID="N1aad94d721434de7bd184cc5e7ac22f4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N51177bb60e1c4720a5e17e8dce7235db">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#orange_juice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N62c7a3490b024befaa0732f8f8fefb27">
+    <rdf:rest rdf:nodeID="Ne2bfc70255a54cf2aab5cd642763687b"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36b31b02484e49fca0c72743b29372b9">
+    <rdf:rest rdf:nodeID="Nd436d155e9cd4295a202aad01ed954a0"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Parliaments"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0478d227fce6441192e10961fe86394c">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd7fb2248e934ffe8b7fa94d98573a5d">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#red">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ab12bd764504926bee35a2f69ed8ab6">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Japanese"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N66f1789136d947338b91f6c57db11466">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N51177bb60e1c4720a5e17e8dce7235db"/>
+    <owl:onProperty rdf:nodeID="N098cafc8b62545fe95bde0f026e1da96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#dog">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97e8e0cba3a9414f872efa5237ede422">
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb60b48a6fdcc4d6ebd584a15b149827a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N5cb39591b38946c6966e46bd44445a7c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne2183eb9d0934f928820ce2f0e38a006">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda90321dfd384dfabf3bdac433739a76">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man"/>
+    <owl:onProperty rdf:nodeID="N4ca605eb78674bed97f836e16895bbce"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na28958caa1f04090af10c02e4f1c2d2e">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:hasValue rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#yellow"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3d00a092dfa43e897888426510b4c5a">
+    <rdf:first rdf:nodeID="N08717c980740475fa665c676edd99304"/>
+    <rdf:rest rdf:nodeID="Ne6381e4035514281b1cb3bb57eb62670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Old_Gold">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:nodeID="N302b79e15cd44dffa1861df458237358"/>
+    <rdfs:comment> 7. The Old Gold smoker owns snails.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6931a1776ac946208fbba31c612278d8">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9fb70cb3b511451cb94cb0de5ee98837">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb39ad27fcd844dba8e97ff62d129c747">
+    <rdf:first rdf:nodeID="Nfa5b67ed01b74f15b45bba4f172f2a82"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N137d164082fd40dfa89849ff93509e93">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#water"/>
+    <rdf:rest rdf:nodeID="N2f2b0aa3553f45cebd9a4b321875f619"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#water">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53f4c5511e954e0f962e6c52f13d3587">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne282e3a50d214831ade438b80d594fec">
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+    <owl:someValuesFrom rdf:nodeID="N24ab6dd56a674bdcab6e6d726e288e7a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7cd3739319b241c69f56ddb5e24c9cb2">
+    <rdf:rest rdf:nodeID="N7ef21375f8374af581e1eebd282357d8"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#coffee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#tea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf02ae0947bb49d881cfdd2e666e1a2d">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N08ab32dd5ac141d2a7845a893586a8da">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="Nda5073a4b3f94a1889f65e75ab4d87f1"/>
+    <owl:onProperty rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcabf4e4749d4be4ba51eadeebbe79a2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N2ce9826ab73f4c1fa817da21e135bf2f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2f2b0aa3553f45cebd9a4b321875f619">
+    <rdf:rest rdf:nodeID="N5e419099644e4bdbbbdd376553422ac9"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#coffee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd086325411c4fc6bbc87ce6b4d45df7">
+    <owl:onProperty rdf:nodeID="N71aea4b5844d4ff08c4bd423c2f43a8a"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="N29574df3cdb54c94a1f4e5337ad0708c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc92b5aa094c646d5be0f1f4b60ca3427">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="N54845b7391c84f53bb1d809f2c2a8d1a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N924b74d60e534788ac2feb031dbec9f6">
+    <rdf:first rdf:nodeID="N46a1cabc9e074bba94f6984677f5a5c5"/>
+    <rdf:rest rdf:nodeID="N53f266692fed4c73bcf195b66dc33f3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5cb39591b38946c6966e46bd44445a7c">
+    <rdf:first rdf:nodeID="N19bc3535ee744f27bb3e0644082d6aa6"/>
+    <rdf:rest rdf:nodeID="N8cbbadfdb6a24b028d86350b1ba422a0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81f8e3da38444264bfed3cf9865d776e">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#tea"/>
+    <rdf:rest rdf:nodeID="N4ef022b91e1f438ebff2bd1c2fdf9528"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne2bfc70255a54cf2aab5cd642763687b">
+    <rdf:rest rdf:nodeID="Ndaccfeb98a5740bf977b594b32024db1"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N896cd6f4e48e4227bb76374936ea2d95">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:nodeID="Nccb391a23bdb4e708139300cfdd4267c"/>
+    <owl:onProperty rdf:nodeID="N8875339dff2a491b9bd3f5d6dfd5db8a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na2596825ab924e79b3f91cd3958a92c6">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N70b79b524c454718a2cd62f346faf367">
+    <rdf:rest rdf:nodeID="N62c7a3490b024befaa0732f8f8fefb27"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbc60150f453244459136a3a60f1a633a">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa4ed83a335140278065010c8b75f48f">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N44d42d75691647d1b561da07c61bf891">
+    <rdf:rest rdf:nodeID="N2840aeb6dfda4ca89cf5cd09f2ff2d7c"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#ivory"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N21957b9dcff34f4fb809ffd0c61decec">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae515da5daba40e393ca124910c82e75">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8bda229057354468a5abb0eb96af9e2d">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N689713b87b104704a709ee33e585a7ac">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7ef21375f8374af581e1eebd282357d8">
+    <rdf:first rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#dog"/>
+    <rdf:rest rdf:nodeID="Ncb7e43489ba14d5b9b564bfa8d03b360"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1029cf7941194eb4815f1cfc3bd8a837">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N12ba5a0b8dd540c7b854c3543035bf8f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na4d6d15edad44a18ba97e6ac5b0233f6">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53f266692fed4c73bcf195b66dc33f3d">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:nodeID="N091d7ab47cff4d5eb6547bfeed72a72f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6d1673869f9b434985a4a364e0e90ead">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd4d03b55d61d46aabc81c9be169ab64a">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N849d2f60fd7e46d4bf7e5333cbf01d77">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfa53e551a896459b95e0a941e5a56392">
+    <owl:inverseOf rdf:resource="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in"/>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://folk.uio.no/martige/what/2012/04/22/zebra#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#isRightTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <owl:inverseOf rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#isLeftTo"/>
+    <rdfs:subPropertyOf rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#isNextTo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b61">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Dog"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Norwegian">
+    <livesIn rdf:nodeID="ub1bL183C21"/>
+    <livesIn rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b22">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Kools"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Smoke">
+    <owl:equivalentClass rdf:nodeID="ub1bL23C28"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#drinks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Drink"/>
+    <rdfs:domain rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#isLeftTo">
+    <rdfs:subPropertyOf rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#isNextTo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b38">
+    <rdf:first rdf:nodeID="ub1bL70C18"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b39"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b43">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House4"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Ukrainian">
+    <drinks rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Tea"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL76C18">
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#smokes"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b62">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Zebra"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b63"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL73C18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#livesIn"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b41">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House2"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b42"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b58">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Water"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b59"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL132C22">
+    <hasColor rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Red"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b36">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Englishman"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b18">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Zebra"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Person">
+    <owl:equivalentClass rdf:nodeID="ub1bL31C29"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL65C12"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#House">
+    <rdfs:subClassOf rdf:nodeID="ub1bL113C12"/>
+    <owl:equivalentClass rdf:nodeID="ub1bL27C28"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL83C24"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL117C12"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL31C29">
+    <owl:oneOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b32"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL95C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+    <owl:distinctMembers rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b41"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b3">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b1">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Color"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b56">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b57"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Tea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#House4">
+    <isLeftTo rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL113C12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onClass rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House"/>
+    <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#isNextTo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#hasColor">
+    <rdfs:range rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Color"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL176C1">
+    <smokes rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#LuckyStrike"/>
+    <drinks rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#OrangeJuice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b37">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b38"/>
+    <rdf:first rdf:nodeID="ub1bL67C18"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b53">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b54"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Englishman"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b55">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Japanese"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL123C1">
+    <owl:distinctMembers rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b51"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b17">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b18"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Horse"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b45">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL153C1">
+    <livesIn rdf:nodeID="ub1bL154C13"/>
+    <smokes rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Kools"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b59">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b60"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Coffee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b30">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House3"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b14">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b15"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Tea"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL117C12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#hasColor"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL154C13">
+    <hasColor rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Yellow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#smokes">
+    <rdfs:range rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Smoke"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL129C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+    <owl:distinctMembers rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b61"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b51">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b52"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Spaniard"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b46">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b47"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Green"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b31">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL145C1">
+    <hasColor rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Green"/>
+    <isRightTo rdf:nodeID="ub1bL146C15"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL65C12">
+    <owl:intersectionOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b37"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b34">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b35"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Ukrainian"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b26">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Parliament"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b10">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Green"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b52">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Norwegian"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b53"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b65">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Horse"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b11">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Red"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Drink">
+    <owl:equivalentClass rdf:nodeID="ub1bL15C28"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL183C21">
+    <isNextTo rdf:nodeID="ub1bL183C33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b47">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b48"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Ivory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#hasPet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:range rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Pet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL70C18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#hasPet"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL67C18">
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#drinks"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b50">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Blue"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b4">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b5"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b2">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b3"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Drink"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b44">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House3"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b45"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b20">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b21"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Dog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#isNextTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House"/>
+    <rdfs:range rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b29">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b30"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b48">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Red"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b49"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b35">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Japanese"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b36"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL183C33">
+    <hasColor rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL164C1">
+    <smokes rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Chesterfield"/>
+    <livesIn rdf:nodeID="ub1bL165C13"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL149C1">
+    <hasPet rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Snails"/>
+    <smokes rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#OldGold"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Englishman">
+    <livesIn rdf:nodeID="ub1bL132C22"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b64">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Snails"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b65"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b5">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b6"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Pet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL170C1">
+    <smokes rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Kools"/>
+    <livesIn rdf:nodeID="ub1bL171C13"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b24">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b25"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#LuckyStrike"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL8C1">
+    <owl:members rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b21">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Snails"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL15C28">
+    <owl:oneOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b12"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL157C1">
+    <livesIn rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House3"/>
+    <drinks rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Milk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b15">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Milk"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Color">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="ub1bL11C28"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b49">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b50"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Yellow"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b7">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b8"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Blue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#House1">
+    <isLeftTo rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b54">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Ukrainian"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b55"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b42">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b43"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL139C13">
+    <hasColor rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Green"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL172C1">
+    <livesIn rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b67"/>
+    <hasPet rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Horse"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL91C1">
+    <owl:assertionProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#isNextTo"/>
+    <owl:targetIndividual rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:sourceIndividual rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL126C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+    <owl:distinctMembers rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b56"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b16">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Coffee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b13">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b14"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Water"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL83C24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#hasColor"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Pet">
+    <owl:equivalentClass rdf:nodeID="ub1bL19C26"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL23C28">
+    <owl:oneOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b22"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#livesIn">
+    <rdfs:range rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b12">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b13"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#OrangeJuice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b6">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Smoke"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b19">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b20"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Fox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#House3">
+    <isLeftTo rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#House2">
+    <isLeftTo rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b39">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b40"/>
+    <rdf:first rdf:nodeID="ub1bL73C18"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL19C26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b17"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b28">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House4"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL27C28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b27"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL166C1">
+    <livesIn rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b66"/>
+    <hasPet rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Fox"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b23">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Chesterfield"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b24"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b27">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#House5"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b28"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b57">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b58"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#OrangeJuice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Japanese">
+    <smokes rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Parliament"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b8">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Yellow"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b63">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Fox"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL120C1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+    <owl:distinctMembers rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b33">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Spaniard"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b34"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b25">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b26"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#OldGold"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b32">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Norwegian"/>
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b33"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL138C1">
+    <livesIn rdf:nodeID="ub1bL139C13"/>
+    <drinks rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Coffee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b9">
+    <rdf:rest rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b10"/>
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Ivory"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL165C13">
+    <isNextTo rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b66"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b60">
+    <rdf:first rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Milk"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL171C13">
+    <isNextTo rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b40">
+    <rdf:first rdf:nodeID="ub1bL76C18"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL146C15">
+    <hasColor rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Ivory"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL11C28">
+    <owl:oneOf rdf:nodeID="fc0eb9dde1cf7486abfe1179a0c89c838b7"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://folk.uio.no/martige/what/2012/04/22/zebra#Spaniard">
+    <hasPet rdf:resource="http://folk.uio.no/martige/what/2012/04/22/zebra#Dog"/>
+  </rdf:Description>
+</rdf:RDF>
+
