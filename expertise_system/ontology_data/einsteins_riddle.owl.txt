@@ -33,7 +33,7 @@
    9. Milk is drunk in the middle house.
   10. The Norwegian lives in the first house.
   11. The man who smokes Chesterfields lives in the house next to the man with the fox.
-  12. Kools are smoked in a house next to the house where the horse is kept. 
+  12. Kools are smoked in a house next to the house where the horse is kept.
   13. The Lucky Strike smoker drinks orange juice.
   14. The Japanese smokes Parliaments.
   15. The Norwegian lives next to the blue house.
@@ -45,10 +45,10 @@ In the interest of clarity, it must be added that each of the five houses is pai
 Updated for compliance: November 4, 2013</dc:date>
         <dc:creator rdf:datatype="&xsd;string">Denis Ponomaryov</dc:creator>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -56,28 +56,28 @@ Updated for compliance: November 4, 2013</dc:date>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="&dc;creator"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="&dc;date"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="&dc;description"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -85,7 +85,7 @@ Updated for compliance: November 4, 2013</dc:date>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#drinks -->
@@ -99,7 +99,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <rdf:Description>
         <owl:inverseOf rdf:resource="&einsteins_riddle;drinks"/>
     </rdf:Description>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#has_color -->
@@ -113,7 +113,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <rdf:Description>
         <owl:inverseOf rdf:resource="&einsteins_riddle;has_color"/>
     </rdf:Description>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#lives_in -->
@@ -127,7 +127,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <rdf:Description>
         <owl:inverseOf rdf:resource="&einsteins_riddle;lives_in"/>
     </rdf:Description>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#owns -->
@@ -138,7 +138,7 @@ Updated for compliance: November 4, 2013</dc:date>
         <rdfs:domain rdf:resource="&einsteins_riddle;Man"/>
         <rdfs:range rdf:resource="&einsteins_riddle;Pet"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#right_to -->
@@ -152,7 +152,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <rdf:Description>
         <owl:inverseOf rdf:resource="&einsteins_riddle;right_to"/>
     </rdf:Description>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#smokes -->
@@ -166,10 +166,10 @@ Updated for compliance: November 4, 2013</dc:date>
     <rdf:Description>
         <owl:inverseOf rdf:resource="&einsteins_riddle;smokes"/>
     </rdf:Description>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -177,7 +177,7 @@ Updated for compliance: November 4, 2013</dc:date>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Beverage -->
@@ -205,7 +205,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Cigarette -->
@@ -233,7 +233,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Color -->
@@ -261,7 +261,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#House -->
@@ -270,11 +270,11 @@ Updated for compliance: November 4, 2013</dc:date>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&einsteins_riddle;house-2"/>
-                    <rdf:Description rdf:about="&einsteins_riddle;house-3"/>
-                    <rdf:Description rdf:about="&einsteins_riddle;house-1"/>
-                    <rdf:Description rdf:about="&einsteins_riddle;house-4"/>
-                    <rdf:Description rdf:about="&einsteins_riddle;house-5"/>
+                    <rdf:Description rdf:about="&einsteins_riddle;house_2"/>
+                    <rdf:Description rdf:about="&einsteins_riddle;house_3"/>
+                    <rdf:Description rdf:about="&einsteins_riddle;house_1"/>
+                    <rdf:Description rdf:about="&einsteins_riddle;house_4"/>
+                    <rdf:Description rdf:about="&einsteins_riddle;house_5"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -297,7 +297,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Man -->
@@ -337,7 +337,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Class>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Pet -->
@@ -365,16 +365,16 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
+
 
 
     <!-- http://www.w3.org/2002/07/owl#Nothing -->
 
     <owl:Class rdf:about="&owl;Nothing"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -382,7 +382,7 @@ Updated for compliance: November 4, 2013</dc:date>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Chesterfields -->
@@ -516,7 +516,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Englishman -->
@@ -552,7 +552,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Japanese -->
@@ -568,7 +568,7 @@ Updated for compliance: November 4, 2013</dc:date>
         <owl:annotatedTarget rdf:resource="&einsteins_riddle;Parliaments"/>
         <owl:annotatedProperty rdf:resource="&einsteins_riddle;smokes"/>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Kools -->
@@ -655,7 +655,7 @@ Updated for compliance: November 4, 2013</dc:date>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdf:type>
-        <rdfs:comment>12. Kools are smoked in a house next to the house where the horse is kept.    
+        <rdfs:comment>12. Kools are smoked in a house next to the house where the horse is kept.
 8. Kools are smoked in the yellow house.</rdfs:comment>
     </owl:Thing>
     <owl:Axiom>
@@ -748,7 +748,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Lucky_Strike -->
@@ -792,7 +792,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Norwegian -->
@@ -834,12 +834,12 @@ Updated for compliance: November 4, 2013</dc:date>
         </rdf:type>
         <rdfs:comment>10. The Norwegian lives in the first house.
 15. The Norwegian lives next to the blue house.</rdfs:comment>
-        <einsteins_riddle:lives_in rdf:resource="&einsteins_riddle;house-1"/>
+        <einsteins_riddle:lives_in rdf:resource="&einsteins_riddle;house_1"/>
     </owl:Thing>
     <owl:Axiom>
         <rdfs:comment rdf:datatype="&xsd;string">10. The Norwegian lives in the first house.</rdfs:comment>
         <owl:annotatedSource rdf:resource="&einsteins_riddle;Norwegian"/>
-        <owl:annotatedTarget rdf:resource="&einsteins_riddle;house-1"/>
+        <owl:annotatedTarget rdf:resource="&einsteins_riddle;house_1"/>
         <owl:annotatedProperty rdf:resource="&einsteins_riddle;lives_in"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -880,7 +880,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Old_Gold -->
@@ -924,7 +924,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Parliaments -->
@@ -932,7 +932,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;Parliaments">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Spaniard -->
@@ -948,7 +948,7 @@ Updated for compliance: November 4, 2013</dc:date>
         <owl:annotatedTarget rdf:resource="&einsteins_riddle;dog"/>
         <owl:annotatedProperty rdf:resource="&einsteins_riddle;owns"/>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#Ukrainian -->
@@ -964,7 +964,7 @@ Updated for compliance: November 4, 2013</dc:date>
         <owl:annotatedProperty rdf:resource="&einsteins_riddle;drinks"/>
         <owl:annotatedTarget rdf:resource="&einsteins_riddle;tea"/>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#blue -->
@@ -972,7 +972,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;blue">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#coffee -->
@@ -1026,7 +1026,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#dog -->
@@ -1034,7 +1034,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;dog">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#fox -->
@@ -1042,7 +1042,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;fox">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#green -->
@@ -1096,7 +1096,7 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#horse -->
@@ -1104,12 +1104,12 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;horse">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
 
 
-    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-1 -->
 
-    <owl:Thing rdf:about="&einsteins_riddle;house-1">
+    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house_1 -->
+
+    <owl:Thing rdf:about="&einsteins_riddle;house_1">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
         <rdf:type>
             <owl:Restriction>
@@ -1118,39 +1118,39 @@ Updated for compliance: November 4, 2013</dc:date>
             </owl:Restriction>
         </rdf:type>
     </owl:Thing>
-    
 
 
-    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-2 -->
 
-    <owl:Thing rdf:about="&einsteins_riddle;house-2">
+    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house_2 -->
+
+    <owl:Thing rdf:about="&einsteins_riddle;house_2">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
-        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house-1"/>
+        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house_1"/>
     </owl:Thing>
-    
 
 
-    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-3 -->
 
-    <owl:Thing rdf:about="&einsteins_riddle;house-3">
+    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house_3 -->
+
+    <owl:Thing rdf:about="&einsteins_riddle;house_3">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
-        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house-2"/>
+        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house_2"/>
     </owl:Thing>
-    
 
 
-    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-4 -->
 
-    <owl:Thing rdf:about="&einsteins_riddle;house-4">
+    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house_4 -->
+
+    <owl:Thing rdf:about="&einsteins_riddle;house_4">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
-        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house-3"/>
+        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house_3"/>
     </owl:Thing>
-    
 
 
-    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house-5 -->
 
-    <owl:Thing rdf:about="&einsteins_riddle;house-5">
+    <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#house_5 -->
+
+    <owl:Thing rdf:about="&einsteins_riddle;house_5">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
         <rdf:type>
             <owl:Restriction>
@@ -1162,9 +1162,9 @@ Updated for compliance: November 4, 2013</dc:date>
                 <owl:allValuesFrom rdf:resource="&owl;Nothing"/>
             </owl:Restriction>
         </rdf:type>
-        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house-4"/>
+        <einsteins_riddle:right_to rdf:resource="&einsteins_riddle;house_4"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#ivory -->
@@ -1172,7 +1172,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;ivory">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#milk -->
@@ -1189,7 +1189,7 @@ Updated for compliance: November 4, 2013</dc:date>
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&einsteins_riddle;lives_in"/>
-                        <owl:hasValue rdf:resource="&einsteins_riddle;house-3"/>
+                        <owl:hasValue rdf:resource="&einsteins_riddle;house_3"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -1210,13 +1210,13 @@ Updated for compliance: November 4, 2013</dc:date>
                 <owl:someValuesFrom>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&einsteins_riddle;lives_in"/>
-                        <owl:hasValue rdf:resource="&einsteins_riddle;house-3"/>
+                        <owl:hasValue rdf:resource="&einsteins_riddle;house_3"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:annotatedTarget>
     </owl:Axiom>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#orange_juice -->
@@ -1224,7 +1224,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;orange_juice">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#red -->
@@ -1232,7 +1232,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;red">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#snails -->
@@ -1240,7 +1240,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;snails">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#tea -->
@@ -1248,7 +1248,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;tea">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#water -->
@@ -1256,7 +1256,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;water">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#yellow -->
@@ -1264,7 +1264,7 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;yellow">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
+
 
 
     <!-- http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#zebra -->
@@ -1272,10 +1272,10 @@ Updated for compliance: November 4, 2013</dc:date>
     <owl:Thing rdf:about="&einsteins_riddle;zebra">
         <rdf:type rdf:resource="&owl;NamedIndividual"/>
     </owl:Thing>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // General axioms
@@ -1302,11 +1302,11 @@ Updated for compliance: November 4, 2013</dc:date>
             <rdf:Description rdf:about="&einsteins_riddle;fox"/>
             <rdf:Description rdf:about="&einsteins_riddle;green"/>
             <rdf:Description rdf:about="&einsteins_riddle;horse"/>
-            <rdf:Description rdf:about="&einsteins_riddle;house-1"/>
-            <rdf:Description rdf:about="&einsteins_riddle;house-2"/>
-            <rdf:Description rdf:about="&einsteins_riddle;house-3"/>
-            <rdf:Description rdf:about="&einsteins_riddle;house-4"/>
-            <rdf:Description rdf:about="&einsteins_riddle;house-5"/>
+            <rdf:Description rdf:about="&einsteins_riddle;house_1"/>
+            <rdf:Description rdf:about="&einsteins_riddle;house_2"/>
+            <rdf:Description rdf:about="&einsteins_riddle;house_3"/>
+            <rdf:Description rdf:about="&einsteins_riddle;house_4"/>
+            <rdf:Description rdf:about="&einsteins_riddle;house_5"/>
             <rdf:Description rdf:about="&einsteins_riddle;ivory"/>
             <rdf:Description rdf:about="&einsteins_riddle;milk"/>
             <rdf:Description rdf:about="&einsteins_riddle;orange_juice"/>
