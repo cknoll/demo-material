@@ -1,0 +1,5 @@
+# this file enables to run the examples on mybinder
+ipydex
+numpy
+torch
+matplotlib
