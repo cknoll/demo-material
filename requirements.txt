@@ -3,3 +3,6 @@ ipydex
 numpy
 torch
 matplotlib
+scipy
+sympy
+symbtools
